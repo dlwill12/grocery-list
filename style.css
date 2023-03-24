@@ -1,0 +1,101 @@
+h1 {
+  margin: 50px;
+  text-align: center;
+  color: #47a384;
+}
+
+body {
+  background-color: rgb(253, 254, 248);
+}
+
+.pantry-header {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  border: 2px black solid;
+  width: 500px;
+  font-size: 25px;
+  margin: 8px;
+  color: #d7d7d7;
+}
+
+.pantry-list-containers {
+  align-items: center;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 2px black solid;
+  width: 220px;
+  font-size: 20px;
+  margin: 8px;
+  padding: 10px;
+}
+.pantry-container-postion {
+  align-content: center;
+  display: flex;
+}
+.pantry-image {
+  background-color: #47a384;
+  border: 2px black solid;
+  width: 220px;
+  margin: 8px;
+  padding: 10px;
+}
+
+.freezer-header {
+  color: #d7d7d7;
+  text-align: center;
+  background-color: rgb(14, 14, 14);
+  border: 2px black solid;
+  width: 500px;
+  font-size: 25px;
+  margin: 8px;
+  margin-top: 50px;
+}
+
+.freezer-list-containers {
+  align-items: center;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 2px black solid;
+  width: 220px;
+  font-size: 20px;
+  margin: 8px;
+  padding: 10px;
+}
+.freezer-container-postion {
+  align-content: center;
+  display: flex;
+}
+.freezer-image {
+  background-color: #47a384;
+  border: 2px black solid;
+  width: 220px;
+  height: 220px;
+  margin: 8px;
+  padding: 10px;
+}
+
+.header-nav {
+  text-align: center;
+  display: block;
+}
+.nav {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  align-content: center;
+  position: relative;
+}
+.header {
+  background-color: white;
+  padding-top: 0px;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+ul li {
+  outline: 0 none;
+  display: inline-block;
+  padding: 0 2.6em;
+  margin: 0;
+}
