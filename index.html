@@ -1,15 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!-- Start with using the "!" tab short cut -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Grocery List</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>My Grocery List</title> <!-- Give the page a title. It will be displayed on the tab bar -->
+    <link rel="stylesheet" href="style.css" /> <!-- link your .css "stylesheet" by using the "link" tab 
+                                                     shortcut it will look something like this 
+                                                     ( <link rel="stylesheet" href=""/> use enter .css file 
+                                                     name in the parentheses following href="" -->
   </head>
-
+<!-- before moving forward create .css it will be alot easier when the time comes to link "class" names from html too .css -->
   <header>
-    <div class="header">
+    <div class="header"> <!-- this div was created for links 
+                         inside the header. This is where you would 
+                         normally put links to pages such as "about"
+                         "contact us" "blog" etc -->
       <ul class="nav">
         <li id="nav-products"><a href="#">RECIPES</a></li>
         <li id="nav-products"><a href="#">DEALS</a></li>
@@ -19,39 +25,46 @@
   </header>
 
   <body>
-    <h1>My Very Organized Grocery List</h1>
+    <h1>My Very Organized Grocery List</h1> <!-- The body header -->
     
-<!-- The section below will be use for the second row and additonal containers -->
-    <section>
+
+    <section> <!-- "SECTION 1 PANTRY ITEM SECITON" Add a section tag - press enter 
+              add div tag press enter - add a header 
+              Section/div are created to visibly separate 
+              element and allows for customization using .css -->
       <div class="pantry-header">
         <h3>PANTRY ITEMS</h3>
       </div>
     </section>
 
-<!-- The section below will be use for the second row and additonal containers -->
-    <section class="pantry-container-postion">
+
+    <section class="pantry-container-postion"><!-- add section / add div / add header / add Unoredered List <ul> / add List <li> the list items -->
       <div class="pantry-list-containers">
         <h5>CANNED</h5>
+        <ul>
         <li>Lorem ipsum dolor</li>
         <li>Lorem ipsum dolor</li>
         <li>Lorem ipsum dolor</li>
         <li>Lorem ipsum dolor</li>
         <li>Lorem ipsum dolor</li>
+        </ul>
       </div>
       
    
-      <!-- The section below will be use for the second row and additonal containers -->
-      <div class="pantry-list-containers">
+      
+      <div class="pantry-list-containers"> <!-- copy and paste / make necessary edits -->
         <h5>DRIED GOODS</h5>
+        <ul>
         <li>Lorem ipsum dolor</li>
         <li>Lorem ipsum dolor</li>
         <li>Lorem ipsum dolor</li>
         <li>Lorem ipsum dolor</li>
         <li>Lorem ipsum dolor</li>
+        </ul>
       </div>
       
-      <!-- The section below will be use for the second row and additonal containers -->
-      <div class="pantry-image">
+      
+      <div class="pantry-image"><!-- This div is for the image | add div tag/ add img tag copy paste-->
         <img
           src="https://www.bhg.com/thmb/qnODK9_j7rgzgd0tB_euSE1dOqI=
                /1244x0/filters:no_upscale():strip_icc()/food-pantry-shelves
@@ -62,8 +75,8 @@
       </div>
     </section>
     
-<!-- The section below will be use for the second row and additonal containers -->
-    <section>
+
+    <section> <!-- after confirming "SECTION 1 PANTRY ITEM SECITON" worked I copy and pasted / made necessary edits -->
       <div class="freezer-header">
         <h3>FREEZER ITEMS</h3>
       </div>
